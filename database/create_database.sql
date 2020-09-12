@@ -1,0 +1,3 @@
+CREATE  USER test_spring WITH PASSWORD '123456';
+CREATE DATABASE test_spring OWNER test_spring ENCODING = 'UTF8';
+CREATE SCHEMA test_spring;
